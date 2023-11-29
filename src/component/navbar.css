@@ -1,7 +1,22 @@
+.logo-image{
+    width: 8vw;
+    height: 15vh;
+    color:white;
+}
+.link-menu{
+    display: flex;
+    flex-direction: column;
+}
+.link-menu>div{
+    display: flex;
+    color: var(--font-white);
+    gap:15px;
+    padding: auto;
+}
 .menubar{
     /* border: 2px solid red; */
     position: absolute;
-    background-color: rgb(247, 243, 223);
+    background-color:rgb(218, 245, 218);
     left: 0;
     width: 16vw;
     height: 88.4vh;

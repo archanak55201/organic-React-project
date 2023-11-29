@@ -1,40 +1,56 @@
 import React, { useState } from 'react'
 import "./../App.css";
 import "./navbar.css";
+import logo from "./../images/logo.png";
 import { FiSearch } from "react-icons/fi";
-
+import { MdSettingsPhone } from "react-icons/md";
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { BsInstagram } from "react-icons/bs";
 import Navigation from './Navigation';
 import MenuList from './MenuList';
 
 
 function Header() {
   const [isOpen,setIsOpen] = useState(false);
-  const [searchIcon,setSearchIcon] = useState(false);
+  
   const openingmenu = ()=>{
+    
     setIsOpen(!isOpen);
   }
-  const openInput=()=>{
-    setSearchIcon(!searchIcon);
-    
+  const closemenu=()=>{
+    if(isOpen){
+      setIsOpen(!isOpen);
+    }
   }
+ 
   return (
     <div>
-    <div className='header-div'>
-        <span style={{paddingLeft:"5px"}}><Navigation isOpen={isOpen} openingmenu={openingmenu}/></span>
-        <h1> Organics Product</h1>
-        <div style={{color:"wheat"}}>
-          {
-              searchIcon && <input type='text' onDoubleClick={openInput} placeholder='search product' /> 
-          }
-          {
-            (!searchIcon) && <FiSearch onClick={openInput}/>
-          }
-         
-        </div>
-        
-    </div>
-    <div className= {`menubar ${isOpen?'open':'close'}` }>
-        <MenuList value={isOpen?'flex':'none'}/>
+      <div className='header-div'>
+          <span style={{paddingLeft:"5px"}}><Navigation isOpen={isOpen} closemenu={closemenu} openingmenu={openingmenu}/></span>
+          <div> <img className="logo-image" src={logo} alt='logo'/>
+            <div>
+              <h1>Bhakur Organics</h1>
+              <p>Eco conscious Plushies for all</p>
+            </div>
+
+            </div>
+          <div className='link-menu'>
+            <div style={{color:"var(--font-white)",fontSize:"1em"}}>
+              <span><BsInstagram />bhakur_organics</span>
+              <span><HiOutlineMailOpen />bhakurorganics111@gmail.com</span>
+              <span><MdSettingsPhone />7067525001</span>
+            </div>
+            <div>
+              <span style={{ backgroundColor:"white" , borderRadius:"17px",padding:"2px 15px",display:"flex",alignItems:"center",gap:"0.5em"}}>
+                <FiSearch style={{color:"black"}}/>
+               <input style={{border:"none",outline:"none",fontSize:"15px",padding:"5px" ,width:"15vw"}}type='text'  placeholder='search product' />
+              </span>
+            </div>
+          </div>
+          
+      </div>
+      <div className= {`menubar ${isOpen?'open':'close'}` }>
+        <MenuList value={isOpen?'flex':'none'} closemenu={closemenu}/>
        </div>
     </div>
   )
