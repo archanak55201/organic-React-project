@@ -1,5 +1,5 @@
 .logo-image{
-    width: 8vw;
+    width: 11vw;
     height: 15vh;
     color:white;
 }
@@ -13,10 +13,23 @@
     gap:15px;
     padding: auto;
 }
+@media (min-width: 100px) and (max-width: 700px) {
+    .link-menu{
+        visibility: collapse;
+        width: 0;
+      
+    }
+    .logo-image{
+        width: 160px;
+        height: 130px;
+        color:white;
+    }
+  }
 .menubar{
     /* border: 2px solid red; */
     position: absolute;
     background-color:rgb(218, 245, 218);
+    top: 15vh;
     left: 0;
     width: 16vw;
     height: 88.4vh;
