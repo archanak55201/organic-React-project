@@ -29,8 +29,8 @@ function Header() {
           <span style={{paddingLeft:"5px"}}><Navigation isOpen={isOpen} closemenu={closemenu} openingmenu={openingmenu}/></span>
           <div> <img className="logo-image" src={logo} alt='logo'/>
             <div>
-              <h1>Bhakur Organics</h1>
-              <p>Eco conscious Plushies for all</p>
+              <h1 >Bhakur Organics</h1>
+              <p >Eco conscious Plushies for all</p>
             </div>
 
             </div>
