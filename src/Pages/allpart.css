@@ -15,8 +15,8 @@
     /* border:1px solid red; */
     margin:1rem;
     padding:0.2rem;
-    padding-left: 3rem;
-    padding-right: 20px;
+   padding-left: 35px;
+    padding-right: 10px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     align-items: center;
@@ -36,6 +36,8 @@
 @media (min-width: 100px) and (max-width: 650px) {
     .container{
          grid-template-columns: repeat(1,1fr);
+         padding-left: 5px;
+         padding-right: 25px;
     } 
 }
 .product{
