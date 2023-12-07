@@ -16,7 +16,7 @@ function App() {
       <div style={{height:"15vh"}}></div>
       <Routes>
         <Route path='/' element={<MainPage/>}/>
-        <Route path='/home' element={<Home/>}/>
+        <Route path='/home' element={<MainPage/>}/>
         <Route path='/inquiry' element={<Inquires/>}/>
         <Route path='/policies' element={<Policy/>}/>
         <Route path='/ourStory' element={<Story/>}/>
