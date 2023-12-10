@@ -33,7 +33,7 @@ function Header() {
             </div>
             <div>
               {/* <h1 >Bhakur Organics</h1> */}
-              <h2 style={{color:"white",fontSize:"25px"}} >Eco conscious Plushies for all</h2>
+              <h2  className='heading'>Eco conscious Plushies for all</h2>
             </div>
 
             </div>
