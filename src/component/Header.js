@@ -27,10 +27,13 @@ function Header() {
     <div>
       <div className='header-div'>
           <span style={{paddingLeft:"5px"}}><Navigation isOpen={isOpen} closemenu={closemenu} openingmenu={openingmenu}/></span>
-          <div> <img className="logo-image" src={logo} alt='logo'/>
+          <div> 
+            <div className='logo-div'> 
+              <img className="logo-image" src={logo} alt='logo'/>
+            </div>
             <div>
-              <h1 >Bhakur Organics</h1>
-              <p >Eco conscious Plushies for all</p>
+              {/* <h1 >Bhakur Organics</h1> */}
+              <h2 style={{color:"white",fontSize:"25px"}} >Eco conscious Plushies for all</h2>
             </div>
 
             </div>

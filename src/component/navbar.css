@@ -1,7 +1,15 @@
+.logo-div{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color:white;
+    /* filter: blur(15px); */
+   
+}
 .logo-image{
     width: 11vw;
     height: 15vh;
     color:white;
+   
 }
 .link-menu{
     display: flex;
@@ -29,7 +37,7 @@
     /* border: 2px solid red; */
     position: absolute;
     background-color:rgb(218, 245, 218);
-    top: 15vh;
+    top: 17vh;
     left: 0;
     width: 16vw;
     height: 88.4vh;
