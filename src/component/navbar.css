@@ -50,6 +50,7 @@
     width: 16vw;
     height: 88.4vh;
     transition: 1s ease;
+    z-index: 1;
 }
 .open{
     width: 20vw;

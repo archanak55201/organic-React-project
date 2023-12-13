@@ -9,7 +9,7 @@
   padding: 0rem 0.8rem;
   gap: 20px;
   top: 0;
-
+  z-index: 1;
   height:17vh;
   width: 100vw;
 }
