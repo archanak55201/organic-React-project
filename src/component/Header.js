@@ -32,8 +32,8 @@ function Header() {
               <img className="logo-image" src={logo} alt='logo'/>
             </div>
             <div>
-              {/* <h1 >Bhakur Organics</h1> */}
-              <h2  className='heading'>Eco conscious Plushies for all</h2>
+              <h1 style={{margin:"0px"}} >Bhakur Organics</h1>
+              <h4 style={{margin:"0px"}} className='heading'>Eco conscious Plushies for all</h4>
             </div>
 
             </div>

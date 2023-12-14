@@ -23,7 +23,8 @@
 }
 .heading{
     color:white;
-    font-size:25px;
+    /* font-size:16px; */
+    font-size: 1rem;
 }
 @media (min-width: 100px) and (max-width: 700px) {
     .link-menu{
@@ -38,7 +39,8 @@
     }
     .heading{
         
-        font-size:25px;
+        /* font-size:14px; */
+        letter-spacing: 0.7px;
     }
   }
 .menubar{

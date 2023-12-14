@@ -45,7 +45,44 @@ const Items = [
         "name":"cushion",
         "price":"66",
         "image":[1,2]
-    }
+    },
+    {
+        "name":"badal",
+        "price":"66",
+        "image":[1]
+    },
+    {
+        "name":"crown",
+        "price":"66",
+        "image":[1]
+    },
+    {
+        "name":"customised-name-bunting",
+        "price":"66",
+        "image":[1,2]
+    },
+    {
+        "name":"giffy-the-giraffe",
+        "price":"66",
+        "image":[1,2]
+    },
+    {
+        "name":"hathi",
+        "price":"66",
+        "image":[1]
+    },
+    {
+        "name":"Rocky-the-rocket",
+        "price":"66",
+        "image":[1,2]
+    },
+    {
+        "name":"sky-in-a-room",
+        "price":"66",
+        "image":[1]
+    },
+    
+   
 ]
 
 export default Items
