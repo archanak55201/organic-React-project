@@ -11,7 +11,7 @@ function SingleProduct() {
     const [message,setMessage] = useState("");
     const {product} = useProductContext();
 
-    const phoneNumber = '9407464630';
+    const phoneNumber = '+919407464630';
         
     console.log(product.name+","+count);
    
