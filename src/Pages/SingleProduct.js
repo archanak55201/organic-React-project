@@ -10,7 +10,8 @@ function SingleProduct() {
     const [count,setCount] = useState(1);
     const [message,setMessage] = useState("");
     const {product} = useProductContext();
-
+    const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
+    console.log(isMobileDevice);
     const phoneNumber = '+919407464630';
         
     console.log(product.name+","+count);
@@ -43,7 +44,18 @@ function SingleProduct() {
       const handlePurchase=()=>{
         setMessage(product.name+","+count);
         const encodedMessage = encodeURIComponent(message);
-        window.location.href = `whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`;
+        const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
+        console.log(isMobileDevice);
+
+        if(isMobileDevice){
+            console.log("mobile");
+            window.location.href = `whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`;
+        }else{
+            console.log("desk");
+
+            window.location.href = `web.whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`;
+        }
+        
       
       }
   return (
@@ -61,15 +73,16 @@ function SingleProduct() {
         </div>
       
         <div className='product-description'>
-            <div className='product-title'>{product.name}</div>
-            <div className='product-price'>$49.00</div>
+            <div className='product-title'>{product.title}</div>
+            <div style={{fontSize:"20px",paddingTop:"1rem"}}>Dimensions: {product.dimension}</div>
+            <div className='product-price'>Rs. {product.price}</div>
             <div>
                 <h3>Key Features</h3>
                 <ul>
                     <li>Outer shell - 100% GOTS Certified Organic Cotton</li>
                     <li>Filling - Polyfilling</li>
-                    <li>Non Toxi dyes used and hence it is chew friendly</li>
-                    <li>Dimensions - </li>
+                    <li>Non Toxic dyes used and hence it is chew friendly</li>
+                    
                     <li>Bhakur Plushies teach kids important skills.Children often express emotions and thoughts while playing with plushies.</li>
                     
                 </ul>

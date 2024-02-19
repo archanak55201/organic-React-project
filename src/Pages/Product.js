@@ -24,8 +24,8 @@ function Product({item}) {
           <img  className='img-size' src={sr} />
           </div>
         
-        <p>{item.name} </p>
-        <div className='price-div'>Rs.200</div>
+        <p style={{fontWeight:"600"}}>{item.title} </p>
+        <div className='price-div' style={{fontWeight:"500"}}>Rs. {item.price}</div>
     </div>
   )
 }

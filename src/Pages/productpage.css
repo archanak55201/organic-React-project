@@ -80,7 +80,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(13, 104, 55);
-    font-size: 18px
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(74, 35, 35);
 }
 .product-price{
     padding: 8px;
@@ -88,8 +90,9 @@
     width: fit-content;
     /* border: 1px solid red; */
     border-radius: 10px;
-    background-color: var(--basic-color);
-    color: var(--font-white);
+    font-size: 22px;
+    background-color: rgba(183, 205, 161, 0.82);
+    color: var(--basic-color);
 }
 .quantity{
     padding: 8px;

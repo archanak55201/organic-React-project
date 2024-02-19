@@ -1,0 +1,35 @@
+.image-founder-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (min-width: 10px) and (max-width: 1246px) {
+    .image-founder-text{
+        flex-direction: column;
+    } 
+}
+.founder-image>img{
+    width:30rem;
+    height:35rem;
+    box-shadow: 2px 1px 15px 1px rgb(26, 43, 61);
+}
+.founder-image{
+    padding: 2rem;
+    padding-top: 4rem;
+}
+.founder-text{
+
+    padding:5rem 6rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+.found-name{
+    color: rgb(196, 53, 28);
+}
+.founder-text>p{
+    font-weight: 200;
+}

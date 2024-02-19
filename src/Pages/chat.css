@@ -1,0 +1,80 @@
+.chat-div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.email-form{
+    margin: 2rem;
+    background-image:linear-gradient(to bottom ,rgb(177, 245, 155),rgb(229, 229, 158));
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5rem 2rem 0.5rem;
+    width: 30%;
+}
+@media (min-width: 10px) and (max-width: 900px) {
+    .chat-div{
+        flex-direction: column;
+       
+    } 
+    .email-form{
+        width: 70%;
+    }
+}
+.whatsapp-div{
+    width: 35%;
+}
+form{
+    width: 100%;
+}
+input{
+    width: 100%;
+    font-size: 15px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+textarea{
+    width: 100%;
+    height: 10rem;
+}
+label{
+    padding: 0.2rem;
+    
+}
+.field{
+    padding: 0.2rem;
+    padding-bottom: 0.4rem;
+
+}
+.email-btn{
+   
+    background-color: rgb(246, 170, 84);
+    color: rgb(3, 3, 66);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0.2rem 2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem; 
+    font-weight: 600;
+}
+.whatsapp-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-whatapp{
+    font-size: 22px;
+    padding: 1rem;
+    letter-spacing: 4px;
+    font-weight: 500;
+    background-color:var(--basic-color) ;
+    color: var(--font-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
