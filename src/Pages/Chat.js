@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './chat.css';
 import { FaWhatsapp } from 'react-icons/fa';
-import emailjs from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
 function Chat() {
   const [name,setName] = useState('');
   const [phone,setPhone] = useState('');
@@ -9,36 +9,36 @@ function Chat() {
   const [message,setMessage] = useState('');
 
 const handleEmailSend=(e)=>{
-      e.preventDefault();
+      // e.preventDefault();
 
-      const serviceId = 'service_1aqnrmq';
-      const templateId = 'template_wldpa9v';
-      const publickey = 'rWkAy4p5PsLsdibfy';
+      // const serviceId = 'service_1aqnrmq';
+      // const templateId = 'template_wldpa9v';
+      // const publickey = 'rWkAy4p5PsLsdibfy';
 
-      const templateParams = {
-        from_name:name,
-        from_email:email,
-        to_name:'Bhakur Organics',
-        mobile:phone,
-        message:message,
-        reply_to:email
+      // const templateParams = {
+      //   from_name:name,
+      //   from_email:email,
+      //   to_name:'Bhakur Organics',
+      //   mobile:phone,
+      //   message:message,
+      //   reply_to:email
         
-      }
+      // }
 
-      console.log(name,email,message,phone);
-      emailjs.send(serviceId,templateId,templateParams,publickey)
-      .then((response)=>{
-        console.log("email sent successfully",response);
-        alert("Message Sent");
-        setName('');
-        setMessage('');
-        setEmail('');
-        setPhone('');
+      // console.log(name,email,message,phone);
+      // emailjs.send(serviceId,templateId,templateParams,publickey)
+      // .then((response)=>{
+      //   console.log("email sent successfully",response);
+      //   alert("Message Sent");
+      //   setName('');
+      //   setMessage('');
+      //   setEmail('');
+      //   setPhone('');
 
-      })
-      .catch((e)=>{
-        console.log("error occured")
-      })
+      // })
+      // .catch((e)=>{
+      //   console.log("error occured")
+      // })
 
 
 }
