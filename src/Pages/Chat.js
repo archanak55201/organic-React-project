@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './chat.css';
 import { FaWhatsapp } from 'react-icons/fa';
-//import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 function Chat() {
   const [name,setName] = useState('');
   const [phone,setPhone] = useState('');

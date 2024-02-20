@@ -41,7 +41,7 @@ function Header() {
             <div style={{color:"var(--font-white)",fontSize:"2em",paddingRight:"15px",display:"flex",gap:"2rem"}}>
               <span><a style={{textDecoration:"none",color:"white" ,fontSize:"22px"}} 
               href='https://www.instagram.com/bhakur_organics?igshid=NGVhN2U2NjQ0Yg=='><BsInstagram /></a></span>
-              <span><a href='mailto:recipient@bhakurorganics111@gmail.com' target="_blank" style={{textDecoration:"none",color:"white",fontSize:"22px"}} ><HiOutlineMailOpen /></a></span>
+              <span><a href='mailto:?to=recipient@bhakurorganics111@gmail.com' target="_blank" style={{textDecoration:"none",color:"white",fontSize:"22px"}} ><HiOutlineMailOpen /></a></span>
               <span><a href="tel:+9407464630" style={{textDecoration:"none",color:"white",fontSize:"22px"}} >Call Us</a>
                       {/* <MdSettingsPhone /><div>7067525001</div><div>9407464630</div> */}
               </span>
@@ -49,7 +49,7 @@ function Header() {
             <div>
               <span style={{ backgroundColor:"white" , borderRadius:"17px",padding:"2px 15px",display:"flex",alignItems:"center",gap:"0.5em"}}>
                 <FiSearch style={{color:"black"}}/>
-               <input style={{border:"none",outline:"none",fontSize:"15px",padding:"5px" ,marginLeft:"15px",width:"15vw"}}type='text'  placeholder='search product' />
+               <input style={{border:"none",outline:"none",fontSize:"15px",padding:"5px" ,width:"15vw"}}type='text'  placeholder='search product' />
               </span>
             </div>
           </div>

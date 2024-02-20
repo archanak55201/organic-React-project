@@ -12,16 +12,17 @@
 .head-outline{
     margin: 5rem;
     margin-bottom: 1rem;
-    border: 0.2px solid rgb(23, 23, 100);
+    border: 1px dotted rgb(7, 7, 22);
     /* position: absolute; */
     padding: 0.5rem 3rem;
-    background: rgb(31, 33, 43);
+    background: white;
     box-shadow: 1px 2px 20px 2px rgb(23, 49, 15);
     top: 10px;
    
 }
 h1{
-    color: rgb(222, 249, 86);
+    color: rgb(7, 7, 7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p{
     text-align: center;
@@ -36,9 +37,10 @@ p{
     padding: 2rem 4rem;
     display: flex;
     align-items: center;
-   background-image: linear-gradient(to right,rgb(32, 30, 49),rgb(3, 80, 164));
-   box-shadow: 1px 2px 10px 6px rgb(55, 31, 25);
-    color: white;
+   background-color: rgb(218, 245, 218);
+   /* box-shadow: 1px 2px 10px 6px rgb(121, 135, 113); */
+   border: 0.1px dotted black;
+    
     font-size: 18px;
     
 }

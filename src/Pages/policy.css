@@ -8,7 +8,9 @@
     margin: 2rem 6rem;
     padding: 1rem 3rem;
     font-size: 1.2rem;
-    background-image: linear-gradient(to right ,rgb(155, 243, 155) ,rgb(215, 229, 163),rgb(188, 246, 236));
+    border: 0.1px dotted black;
+    /* background-image: linear-gradient(to right ,rgb(155, 243, 155) ,rgb(215, 229, 163),rgb(188, 246, 236)); */
+    background-color: rgb(218, 245, 218);
     border-radius: 0.4rem;
    
 }

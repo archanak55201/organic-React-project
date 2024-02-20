@@ -1,5 +1,5 @@
 import React from 'react'
-import founder from './../images/founder.jpg';
+import founder from './founder.jpg';
 import './founder.css';
 
 function Inquires() {
@@ -13,7 +13,7 @@ function Inquires() {
           <div className='founder-text'>
             <p>
               <span className='found-name'>Arya Manjhani</span> & <span className='found-name'>Deepali Patel </span> 
-              hail from Madhya Pradesh. Arya is from Jabalpur and Deepali comes from Khajuraho. Both travelled to Indore for their course in Fashion design, where during their internship days at a textile industry they understood the importance of organic cotton and sustainability. They instantly had a common spark to move forward with the idea of creating sustainable replacements for plastic polyster soft toys . They interacted with industry professionals and researched the fabric and its whereabouts. 
+              hail from Madhya Pradesh. Arya is from Jabalpur and Deepali comes from Khajuraho. Both travelled to Indore for their course in Fashion design, where during their internship days at a textile industry they understood the importance of organic cotton and sustainability. They instantly had a common spark to move forward with the idea of creating sustainable replacements for plastic and polyster soft toys . They interacted with industry professionals and researched the fabric and its whereabouts. 
             </p>
 
             <p><i><b>Bhakur was yet not born, but was in its latent stages, as a beautiful  concept in the minds of Arya and Deepali. </b></i></p>
