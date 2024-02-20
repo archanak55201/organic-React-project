@@ -41,7 +41,7 @@ function Header() {
             <div style={{color:"var(--font-white)",fontSize:"2em",paddingRight:"15px",display:"flex",gap:"2rem"}}>
               <span><a style={{textDecoration:"none",color:"white" ,fontSize:"22px"}} 
               href='https://www.instagram.com/bhakur_organics?igshid=NGVhN2U2NjQ0Yg=='><BsInstagram /></a></span>
-              <span><a href='mailto:?to=recipient@bhakurorganics111@gmail.com' target="_blank" style={{textDecoration:"none",color:"white",fontSize:"22px"}} ><HiOutlineMailOpen /></a></span>
+              <span><a href='mailto:recipient@bhakurorganics111@gmail.com'  style={{textDecoration:"none",color:"white",fontSize:"22px"}} ><HiOutlineMailOpen /></a></span>
               <span><a href="tel:+9407464630" style={{textDecoration:"none",color:"white",fontSize:"22px"}} >Call Us</a>
                       {/* <MdSettingsPhone /><div>7067525001</div><div>9407464630</div> */}
               </span>
